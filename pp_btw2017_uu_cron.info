@@ -1,0 +1,7 @@
+; $Id$
+package = Piratenpartei
+name = Piratenpartei BTW2017 UU Cron
+description = Lädt periodisch die Daten der Sammelbalken aus dem Wiki und stellt sie als JSON bereit.
+dependencies[] = pp_ssl
+core = 6.x
+version = "6.x-1.0"
