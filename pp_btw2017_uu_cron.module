@@ -327,11 +327,15 @@ function pp_btw2017_uu_cron_cron() {
 		);
 
 	// find sammelbalken
+		echo "start: pp_btw2017_uu_cron\n";
 		$url = $wiki."/wiki//index.php?title=XXX&action=edit";
 		foreach($pool as $idx => $row) {
 			// load wiki source code
-				$ch = curl_init();
-				curl_setopt($ch, CURLOPT_URL,				str_replace("XXX", $row["wiki"], $url));
+				$curl	= str_replace("XXX", $row["wiki"], $url);
+				echo $curl."\n";
+
+				$ch		= curl_init();
+				curl_setopt($ch, CURLOPT_URL,				$curl);
 				curl_setopt($ch, CURLOPT_HEADER,			0);
 				curl_setopt($ch, CURLOPT_RETURNTRANSFER,	1);
 				curl_setopt($ch, CURLOPT_FOLLOWLOCATION,	1);
@@ -440,6 +444,8 @@ function pp_btw2017_uu_cron_cron() {
 
 		file_put_contents(realpath('.'.base_path()).'/btw2017_uu_json.php', $php);
 
+	// end
+		echo "end: pp_btw2017_uu_cron\n";
 }
 
 ?>
