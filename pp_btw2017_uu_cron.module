@@ -332,7 +332,7 @@ function pp_btw2017_uu_cron_cron() {
 		foreach($pool as $idx => $row) {
 			// load wiki source code
 				$curl	= str_replace("XXX", $row["wiki"], $url);
-				echo $curl."\n";
+				echo "\t".$curl."\n";
 
 				$ch		= curl_init();
 				curl_setopt($ch, CURLOPT_URL,				$curl);
@@ -365,7 +365,7 @@ function pp_btw2017_uu_cron_cron() {
 				preg_match_all("/\|\s*ZuSammeln\s*\=\s*(.*)?\s*/i", $data2, $regs2);
 				#print_r($regs2);
 				foreach($regs2[1] as $id => $reg) {
-					$info[$id]["max"] = $reg;
+					$info[$id]["max"] = intval($reg);
 				}
 				if (!isset($info[$id]["max"])) {
 					print_r($data);
@@ -378,7 +378,7 @@ function pp_btw2017_uu_cron_cron() {
 				preg_match_all("/\|\s*Gesammelt\s*\=\s*(.*)?\s*/i", $data2, $regs2);
 				#print_r($regs2);
 				foreach($regs2[1] as $id => $reg) {
-					$info[$id]["current"] = $reg;
+					$info[$id]["current"] = intval($reg);
 				}
 				if (!isset($info[$id]["current"])) {
 					print_r($data);
@@ -391,7 +391,7 @@ function pp_btw2017_uu_cron_cron() {
 				preg_match_all("/\|\s*OK\s*\=\s*(.*)?\s*/i", $data2, $regs2);
 				#print_r($regs2);
 				foreach($regs2[1] as $id => $reg) {
-					$info[$id]["save"] = $reg;
+					$info[$id]["save"] = intval($reg);
 				}
 				if (!isset($info[$id]["save"])) {
 					print_r($data);
