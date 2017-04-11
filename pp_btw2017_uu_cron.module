@@ -49,7 +49,7 @@ function pp_btw2017_uu_cron_help($path, $arg) {
 */
 function pp_btw2017_uu_cron_cron() {
 	// vars
-		$wiki = "http://wiki.piratenpartei.de";
+		$wiki = "https://wiki.piratenpartei.de";
 		$pool = array(
 					"liste"	=> array(
 									"wiki"  => "HE:Wahlen_2017/UU",
@@ -328,7 +328,7 @@ function pp_btw2017_uu_cron_cron() {
 
 	// find sammelbalken
 		echo "start: pp_btw2017_uu_cron\n";
-		$url = $wiki."/wiki//index.php?title=XXX&action=edit";
+		$url = $wiki."/wiki/index.php?title=XXX&action=edit";
 		foreach($pool as $idx => $row) {
 			// load wiki source code
 				$curl	= str_replace("XXX", $row["wiki"], $url);
@@ -344,7 +344,7 @@ function pp_btw2017_uu_cron_cron() {
 				#print_r($data);
 
 			// extract textarea
-				preg_match_all("/<onlyinclude[^>]*>(.*)?<\/onlyinclude/si", $data, $regs);
+				preg_match_all("/<textarea[^>]*>(.*)?<\/textarea/si", $data, $regs);
 				#print_r($regs);
 				$data2 = $regs[1][0];
 				#$data2 = utf8_decode($data2);
