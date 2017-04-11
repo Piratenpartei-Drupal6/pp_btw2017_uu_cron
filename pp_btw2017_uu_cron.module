@@ -57,273 +57,157 @@ function pp_btw2017_uu_cron_cron() {
 									"uu"    => "https://wiki.piratenpartei.de/wiki/images/5/52/BTW17_HE_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
 
-					/* Kassel */
-					/*2 => array(
-									"wiki"  => "HE:Kassel_Land/Wahl_2013/Sammelbalken_2",
-									"title" => "WK 2 (Kassel Land)",
-									"uu"    => "http://wiki.piratenpartei.de/Benutzer:FranziL",
-					),
-					3 => array(
-									"wiki"  => "HE:Kassel_Stadt/Wahl_2013/Sammelbalken_3",
-									"title" => "WK 3 (Kassel Stadt I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/c/cf/Unterst%C3%BCtzungsunterschriften_PIRATEN_WK3.pdf",
-					),
-					4 => array(
-									"wiki"  => "HE:Kassel_Stadt/Wahl_2013/Sammelbalken_4",
-									"title" => "WK 4 (Kassel Stadt II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/7/7d/Unterst%C3%BCtzungsunterschriften_PIRATEN_WK4.pdf",
+					/* Waldeck-Frankenberg */
+					/*167 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/167",
+									"title" => "Wahlkreis 167 - Waldeck",
+									"uu"    => "http://wiki.piratenpartei.de/Benutzer:MiB303",
 					),/**/
 
-					/* Waldeck-Frankenberg */
-					/*
-					5 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Waldeck-Frankenberg_I",
-									"title" => "WK 5 (Waldeck-Frankenberg I)",
-									"uu"    => "http://wiki.piratenpartei.de/Benutzer:MiB303",
+					/* Kassel */
+					168 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/168",
+									"title" => "Wahlkreis 168 - Kassel",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/7/75/BTW17_168_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
-					6 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Waldeck-Frankenberg_II",
-									"title" => "WK 6 (Waldeck-Frankenberg II)",
+
+					/* Werra-Meißner – Hersfeld-Rotenburg */
+					/*169 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/169",
+									"title" => "Wahlkreis 169 - Werra-Meißner – Hersfeld-Rotenburg",
 									"uu"    => "http://wiki.piratenpartei.de/Benutzer:MiB303",
 					),/**/
 
 					/* Schwalm-Eder */
-					/*7 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Schwalm-Eder_I",
-									"title" => "WK 7 (Schwalm-Eder I)",
+					/*170 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/170",
+									"title" => "Wahlkreis 170 - Schwalm-Eder",
 									"uu"    => "http://wiki.piratenpartei.de/wiki/images/c/cc/UU_LTW_HE_Wahlkreis_7.pdf",
-					),
-					8 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Schwalm-Eder_II",
-									"title" => "WK 8 (Schwalm-Eder II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/e/e7/UU_LTW_HE_Wahlkreis_8.pdf",
 					),/**/
 
 					/* Marburg-Biedenkopf */
-					/*12 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Marburg-Biedenkopf_I",
-									"title" => "WK 12 (Marburg-Biedenkopf I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/7/72/UU_Landtagswahlkreis12_2013.pdf",
+					171 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/171",
+									"title" => "Wahlkreis 171 - Marburg",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/d/d9/BTW17_171_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
-					13 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Marburg-Biedenkopf_II",
-									"title" => "WK 13 (Marburg-Biedenkopf II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/e/ec/UU_LTW_Wahlkreis_13_2013.pdf",
-					),/**/
-
-					/* Fulda */
-					/*14 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Fulda_I",
-									"title" => "WK 14 (Fulda I)",
-									"uu"    => "https://wiki.piratenpartei.de/Datei:14_Fulda_I.pdf",
-					),
-					15 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Fulda_II",
-									"title" => "WK 15 (Fulda II)",
-									"uu"    => "https://wiki.piratenpartei.de/Datei:15_Fulda_II.pdf",
-					),/**/
 
 					/* Lahn-Dill */
-					/*16 => array(
-									"wiki"  => "HE:Lahn-Dill-Kreis/Wahl_2013/Sammelbalken_16",
-									"title" => "WK 16 (Lahn-Dill I)",
+					/*172 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/172",
+									"title" => "Wahlkreis 172 - Lahn-Dill",
 									"uu"    => "https://dl.dropboxusercontent.com/u/22741570/Piraten/uu_ltw_he_2013_wk_16_lahn_dill_1.pdf",
-					),
-					17 => array(
-									"wiki"  => "HE:Lahn-Dill-Kreis/Wahl_2013/Sammelbalken_17",
-									"title" => "WK 17 (Lahn-Dill II)",
-									"uu"    => "https://dl.dropboxusercontent.com/u/22741570/Piraten/uu_ltw_he_2013_wk_17_lahn_dill_2.pdf",
 					),/**/
 
 					/* Gießen */
-					/*18 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Gießen_I",
-									"title" => "WK 18 (Gießen I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/8/8b/Uu_ltw_he_2013_wk_18_giessen_1_formular.pdf",
+					173 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/173",
+									"title" => "Wahlkreis 173 - Gießen",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/2/2b/BTW17_173_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
-					19 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Gießen_II",
-									"title" => "WK 19 (Gießen II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/c/cc/Uu_ltw_he_2013_wk_19_giessen_2_formular.pdf",
+
+					/* Fulda */
+					/*174 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/174",
+									"title" => "WWahlkreis 174 - Fulda",
+									"uu"    => "https://wiki.piratenpartei.de/Datei:14_Fulda_I.pdf",
+					),/**/
+
+					/* Main-Kinzig – Wetterau II – Schotten */
+					/*175 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/175",
+									"title" => "WWahlkreis 175 - Main-Kinzig – Wetterau II – Schotten",
+									"uu"    => "https://wiki.piratenpartei.de/Datei:14_Fulda_I.pdf",
 					),/**/
 
 					/* Hochtaunus */
-					/*23 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Hochtaunus_I",
-									"title" => "WK 23 (Hochtaunus I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/9/9c/UU-Formular_LTW2013_WK23.pdf",
+					176 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/176",
+									"title" => "Wahlkreis 176 - Hochtaunus",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/8/87/BTW17_176_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
-					24 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Hochtaunus_II",
-									"title" => "WK 24 (Hochtaunus II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/e/e1/UU-Formular_LTW2013_WK24.pdf",
-					),/**/
 
 					/* Wetterau */
-					/*25 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Wetterau_I",
-									"title" => "WK 25 (Wetterau I)",
+					/*177 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/177",
+									"title" => "Wahlkreis 177 - Wetterau I",
 									"uu"    => "http://wiki.piratenpartei.de/wiki/images/d/d4/Uu_ltw_he_2013_wahlkreis_25_wetterau_1.pdf",
-					),
-					26 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Wetterau_II",
-									"title" => "WK 26 (Wetterau II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/e/e9/Uu_ltw_he_2013_wahlkreis_26_wetterau_2.pdf",
-					),
-					27 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Wetterau_III",
-									"title" => "WK 27 (Wetterau III)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/6/67/Uu_ltw_he_2013_wahlkreis_27_wetterau_3.pdf",
 					),/**/
 
 					/*  Rheingau-Taunus */
-					/*28 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Rheingau-Taunus_I",
-									"title" => "WK 28 (Rheingau-Taunus I)",
+					/*178 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/178",
+									"title" => "Wahlkreis 178 - Rheingau-Taunus – Limburg",
 									"uu"    => "http://wiki.piratenpartei.de/wiki/images/a/aa/Uu_ltw_he_2013_wk_28_rheingau_taunus_1_formular.pdf",
-					),
-					29 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Rheingau-Taunus_II",
-									"title" => "WK 29 (Rheingau-Taunus II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/e/e0/Uu_ltw_he_2013_wk_29_rheingau_taunus_2_formular.pdf",
 					),/**/
 
 					/*  Wiesbaden */
-					/*30 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Wiesbaden_I",
-									"title" => "WK 30 (Wiesbaden I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/9/94/UU.LTW13.WK30.PIRATEN.pdf",
+					179 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/179",
+									"title" => "Wahlkreis 179 - Wiesbaden",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/7/76/BTW17_179_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
-					31 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Wiesbaden_II",
-									"title" => "WK 31 (Wiesbaden II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/8/82/UU.LTW13.WK31.PIRATEN.pdf",
+
+					/* Hanau */
+					/*180 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/180",
+									"title" => "Wahlkreis 180 - Hanau",
+									"uu"    => "http://wiki.piratenpartei.de/wiki/images/d/d4/Uu_ltw_he_2013_wahlkreis_25_wetterau_1.pdf",
 					),/**/
 
 					/*  Main-Taunus */
-					/*32 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Main-Taunus_I",
-									"title" => "WK 32 (Main-Taunus I)",
+					/*181 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/181",
+									"title" => "Wahlkreis 181 - Main-Taunus",
 									"uu"    => "http://wiki.piratenpartei.de/wiki/images/7/7d/UU_Wahl_Guth_und_Kysel.pdf",
-					),
-					33 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Main-Taunus_II",
-									"title" => "WK 33 (Main-Taunus II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/6/60/UU_Wahl_Preussler_und_Tillger.pdf",
 					),/**/
 
 					/* Frankfurt */
-					/*34 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Frankfurt_am_Main_I",
-									"title" => "WK 34 (Frankfurt I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/6/6d/LTW2013_WK34.PDF",
+					182 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/182",
+									"title" => "Wahlkreis 182 - Frankfurt am Main I",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/6/63/BTW17_182_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
-					35 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Frankfurt_am_Main_II",
-									"title" => "WK 35 (Frankfurt II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/4/40/LTW2013_WK35.PDF",
+					183 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/183",
+									"title" => "Wahlkreis 183 - Frankfurt am Main II",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/b/b1/BTW17_183_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
-					36 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Frankfurt_am_Main_III",
-									"title" => "WK 36 (Frankfurt III)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/1/13/LTW2013_WK36.PDF",
-					),
-					37 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Frankfurt_am_Main_IV",
-									"title" => "WK 37 (Frankfurt IV)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/2/25/LTW2013_WK37.PDF",
-					),
-					38 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Frankfurt_am_Main_V",
-									"title" => "WK 38 (Frankfurt V)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/a/a6/LTW2013_WK38.PDF",
-					),
-					39 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Frankfurt_am_Main_VI",
-									"title" => "WK 39 (Frankfurt VI)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/2/24/LTW2013_WK39.PDF",
-					),/**/
-
-					/* Main-Kinzig */
-					/*40 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Main-Kinzig-Kreis_I",
-									"title" => "WK 40 (Main-Kinzig-Kreis I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/1/19/Formblatt_Unterst%C3%BCtzungsunterschriften_-_WK_40_-_LTW_2013.pdf",
-					),
-					41 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Main-Kinzig-Kreis_II",
-									"title" => "WK 41 (Main-Kinzig-Kreis II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/d/d3/Formblatt_Unterst%C3%BCtzungsunterschriften_-_WK_41_-_LTW_2013.pdf",
-					),
-					42 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Main-Kinzig-Kreis_III",
-									"title" => "WK 42 (Main-Kinzig-Kreis III)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/b/b3/Formblatt_Unterst%C3%BCtzungsunterschriften_-_WK_42_-_LTW_2013.pdf",
-					),/**/
-
-					/* Offenbach */
-					/*43 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Offenbach",
-									"title" => "WK 43 (Offenbach Stadt)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/a/ae/Unterstuetzung_Gregory_Engels.jpg",
-					),
-					44 => array(
-									"wiki"  => "HE:Kreisverband_Offenbach_Land/Landtagswahl_2013/Sammelbalken_WK44",
-									"title" => "WK 44 (Offenbach Land I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/1/10/LTWHE13_Formblatt_Unterst%C3%BCtzungsunterschriften_WK_44.pdf",
-					),
-					46 => array(
-									"wiki"  => "HE:Kreisverband_Offenbach_Land/Landtagswahl_2013/Sammelbalken_WK46",
-									"title" => "WK 46 (Offenbach Land III)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/b/b7/LTWHE13_Formblatt_Unterst%C3%BCtzungsunterschriften_WK_46.pdf",
-					),/**/
 
 					/* Groß-Gerau */
-					/*47 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Gro%C3%9F-Gerau_I",
-									"title" => "WK 47 (Groß-Gerau I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/9/9e/Formblatt_UU_Piratenpartei_WK_47.pdf",
+					184 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/184",
+									"title" => "Wahlkreis 184 - Groß-Gerau",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/3/36/BTW17_184_Formblatt_Unterstuetzungsunterschrift.pdf",
 					),
-					48 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Gro%C3%9F-Gerau_II",
-									"title" => "WK 48 (Groß-Gerau II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/f/f6/Formblatt_UU_Piratenpartei_WK_48.pdf",
-					),/**/
+
+					/* Offenbach */
+					185 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/185",
+									"title" => "Wahlkreis 185 - Offenbach",
+									"uu"    => "https://wiki.piratenpartei.de/wiki/images/7/7b/BTW17_185_Formblatt_Unterstuetzungsunterschrift.pdf",
+					),
 
 					/* Darmstadt */
-					/*49 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Darmstadt-Stadt_I",
-									"title" => "WK 49 (Darmstadt-Stadt I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/1/19/LTW2013-WK49-UU.pdf",
-					),
-					51 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Darmstadt-Dieburg_I",
-									"title" => "WK 51 (Darmstadt-Dieburg I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/3/35/LTW2013-WK51-UU.pdf",
-					),
-					52 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Darmstadt-Dieburg_II",
-									"title" => "WK 52 (Darmstadt-Dieburg II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/d/df/LTW2013-WK52-UU.pdf",
+					/*186 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/186",
+									"title" => "Wahlkreis 186 - Darmstadt",
+									"uu"    => "http://wiki.piratenpartei.de/wiki/images/7/7d/UU_Wahl_Guth_und_Kysel.pdf",
 					),/**/
 
-					/* Süden */
-					/*53 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Odenwald",
-									"title" => "WK 53 (Odenwald)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/d/d9/UU-LTW-HE13-53-Odenwald.pdf",
-					),
-					54 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Bergstra%C3%9Fe_I",
-									"title" => "WK 54 (Bergstraße I)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/4/4c/LTW2013-WK54_I-UU.pdf",
-					),
-					55 => array(
-									"wiki"  => "HE:Wahlen_2013/UU/Sammelbalken/Bergstra%C3%9Fe_II",
-									"title" => "WK 55 (Bergstraße II)",
-									"uu"    => "http://wiki.piratenpartei.de/wiki/images/7/7f/HE-LTW-2013-WK55-UU.pdf",
+					/* Odenwald */
+					/*187 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/187",
+									"title" => "Wahlkreis 187 - Odenwald",
+									"uu"    => "http://wiki.piratenpartei.de/wiki/images/7/7d/UU_Wahl_Guth_und_Kysel.pdf",
 					),/**/
 
+					/* Bergstraße */
+					/*188 => array(
+									"wiki"  => "HE:Wahlen_2017/UU/188",
+									"title" => "Wahlkreis 188 - Bergstraße",
+									"uu"    => "http://wiki.piratenpartei.de/wiki/images/7/7d/UU_Wahl_Guth_und_Kysel.pdf",
+					),/**/
 		);
 
 	// find sammelbalken
